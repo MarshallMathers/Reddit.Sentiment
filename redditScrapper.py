@@ -41,7 +41,7 @@ def get_newTitle(subreddit):
 def get_newSub(subreddit):
 
     subreddit = reddit.subreddit('{}'.format(subreddit))
-    new = subreddit.new(limit=750)
+    new = subreddit.new(limit=250)
     headlines = []
 
     for submission in new:
