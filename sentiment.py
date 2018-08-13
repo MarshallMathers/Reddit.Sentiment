@@ -3,10 +3,11 @@ import analyzer as an
 import seaborn as sns
 sns.set(style='darkgrid', context='talk', palette='Dark2')
 
-# Call this function if you want to train Bayes again. (Not Recommended!)
+
 def write_new_Bayes():
     an.train_Bayes()
 
+# Call this function if you want to train Bayes again. (Not Recommended!)
 # write_new_Bayes()
 
 def sample_bayes(subreddit):
