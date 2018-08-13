@@ -39,6 +39,7 @@ def generate_trainData(subreddit):
 
 # Generates 10 test files that are used for training Niave Bayes
 
+"""
 generate_trainData("ripple")
 generate_trainData("iota")
 generate_trainData("ethereum")
@@ -51,3 +52,4 @@ generate_trainData("cryptomarkets")
 generate_trainData("stellar")
 generate_trainData("neo")
 generate_trainData("bitcoin")
+"""
