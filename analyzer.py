@@ -119,7 +119,7 @@ def sentiment_ofTitle(title):
         print("The sentiment is \"{}\" is Negative".format(title))
 
 
-def sentiment_ofSubreddit(subreddit, show = False):
+def sentiment_ofSubreddit(subreddit, show=False):
 
 
     model = open('bayes_model.pickle', 'rb')
@@ -161,6 +161,4 @@ def sentiment_ofSubreddit(subreddit, show = False):
         print(labels)
 
     return counts
-
-
 
